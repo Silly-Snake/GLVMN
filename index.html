@@ -1,0 +1,101 @@
+<html>
+<head>
+  <title>Google Lens V.S. MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="container">
+    <h4 id="case">CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</h4>
+    <br>
+    <hr>
+    <h2>GOOGLE LENS
+        <img src="gl.jpg" width="150px">
+    </h2>
+    <h3>
+        VS
+    </h3>
+    <h2 id="mn">MOBILENET</h2>
+    <br>
+    <hr>
+    <ol style="padding:0px;">
+        <div class="bob col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white">Test Image - </b><img src="water.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b><span> - Water Bottle</span></h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>MOBILENET</b><span> - Water Bottle</span></h5>
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>THEY WERE BOTH CORRECT</h4>
+            </div>
+        </div>
+        <br>
+        <div class="bob col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white">Test Image - </b><img src="shoes.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b><span> - Canvas Shoes</span></h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>MOBILENET</b><span> - Running Shoes</span></h5>
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>GOOGLE LENS is More Accurate</h4>
+            </div>
+        </div>
+        <div class="bob col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white">Test Image - </b><img src="hp.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b><span> - Headphone</span></h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>MOBILENET</b><span> - Microphone, Mike</span></h5>
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>GOOGLE LENS is More Accurate</h4>
+            </div>
+        </div>
+        <div class="bob col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white">Test Image - </b><img src="t.jpeg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b><span> - Soft Toy</span></h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>MOBILENET</b><span> - Ski Mask</span></h5>
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>GOOGLE LENS is More Accurate</h4>
+            </div>
+        </div>
+        <div class="bob col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white">Test Image - </b><img src="bed.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b><span> - Bed, Pillow, Blanket</span></h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>MOBILENET</b><span> - Bathtub, Bathing Tub, Bath, Tub</span></h5>
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - </h4>
+                <hr>
+                <h4>GOOGLE LENS is More Accurate</h4>
+            </div>
+        </div>
+    </ol>
+    <br>
+    <br>
+    <h4 class="col-xs-12 result">
+        I have tested 5 images <br>
+        <b>GOOGLE LENS</b> has predicted 4 of them more accurately, and <b>MOBILENET</b> was less accurate. <br> So according to my case study <b>GOOGLE LENS</b> is more Accurate.
+    </div>
+        <br><br>
+    </h4>
+    </center>
+</body>
